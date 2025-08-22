@@ -14,7 +14,7 @@ python gtd_bot.py
 ```
 
 ## Usage
-# GTD with Telegram + Nextcloud + Markdown
+### GTD with Telegram + Nextcloud + Markdown
 
 Commands:
 /in <text>
@@ -37,7 +37,7 @@ docker compose build --no-cache
 docker compose up -d
 ```
 
-If anything went south, then delete and rebuild
+If anything goes south (yes, env file), then delete and rebuild
 ```bash
 docker compose down
 docker rmi gtd-bot:latest
